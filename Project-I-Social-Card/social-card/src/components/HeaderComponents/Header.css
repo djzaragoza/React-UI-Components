@@ -1,42 +1,35 @@
 /* All styles for your header Components live here */
 
-.imageThumbnail {
-    background-color: #b00000;
+.headerContainer {
     display: flex;
-    height: 55px;
-    border-radius: 25px;
-    justify-content: center;
+    align-items: space-between;
 }
 
-.logo {
-    width: 75%;
-    height: auto;
-    padding-top: 6px;
+.headerContainer img {
+    width: 59px;
+    height: 59px;
+}
+
+.headerContainer p {
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
 }
 
 .headerTitle {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 53%;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: center;
 }
 
-p {
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 8px;
+.headerTitle h1 {
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 600;
 }
 
-.socialText {
-    margin: 0;
-}
-
-.headerContainer {
-    padding-top: 0px;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.headerTitle h2 {
+    font-size: 14px;
+    color: gray;
+    font-weight: 100;
 }
