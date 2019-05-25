@@ -1,19 +1,13 @@
 import React from 'react';
 import './Header.css';
-import moment from 'moment';
 
-function HeaderTitle() {
+const HeaderTitle = () => {
     return (
-        <div className="headertitle">
-            <p className="title">
-                <strong>LambdaSchool</strong>
-            </p>
-            <p className="smallGray">
-                @LambdaSchool &#8226;{''}
-                <span className="date">{moment().format('MMM D')}</span>
-            </p>
+        <div className="headerTitle">
+            <h1>Lambda School</h1>
+            <h2>@LambdaSchool &middot; 8 may</h2>
         </div>
     );
-}
+};
 
 export default HeaderTitle;
