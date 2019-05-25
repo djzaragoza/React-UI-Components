@@ -1,19 +1,16 @@
 import React from 'react';
 import './Card.css';
-import CardBanner from './CardBanner';
-import CardContent from '../CardComponents/CardContent';
-import HeaderContainer from '../HeaderComponents/HeaderContainer';
-import FooterComponent from '../FooterComponents/Footer';
-import '../FooterComponents/Footerevents.js';
+import CardBanner from "./CardBanner";
+import CardContent from "./CardContent";
 
 const CardContainer = () => {
     return (
-        <div className="big_container">
-            <HeaderContainer/>
-            <CardBanner/>
-            <CardContent/>
-            <FooterComponent/>
-        </div>
+        <a href="https://www.reactjs.org" id="link">
+            <div className="cardContainer">
+                <CardBanner />
+                <CardContent />
+            </div>
+        </a>
     )
 }
 
