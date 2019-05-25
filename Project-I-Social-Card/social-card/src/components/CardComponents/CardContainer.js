@@ -1,23 +1,20 @@
 import React from 'react';
 import './Card.css';
 import CardBanner from './CardBanner';
-import CardContent from './CardContent';
+import CardContent from '../CardComponents/CardContent';
+import HeaderContainer from '../HeaderComponents/HeaderContainer';
+import FooterComponent from '../FooterComponents/Footer';
+import '../FooterComponents/Footerevents.js';
 
-function CardContainer() {
-    const clickMe = () => {
-        window.location.href ='https://reactjs.org';
-    };
-
+const CardContainer = () => {
     return (
-        <div className="cardContainer" onClick={clickMe}>
-            <div className="cardImg">
-                <CardBanner />
-            </div>
-            <div className="content">
-                <CardContent />
-            </div>
+        <div className="big_container">
+            <HeaderContainer/>
+            <CardBanner/>
+            <CardContent/>
+            <FooterComponent/>
         </div>
-    );
-} 
+    )
+}
 
 export default CardContainer;
