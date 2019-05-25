@@ -32,3 +32,10 @@ a {
   color: black;
 }
 
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
