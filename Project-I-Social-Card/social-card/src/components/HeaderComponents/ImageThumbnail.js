@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { ReactComponent as logo } from './lambda.svg';
+import { ReactComponent as Logo } from './lambda.svg';
 
 function ImageThumbnail() {
     return (

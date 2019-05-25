@@ -20,4 +20,4 @@ function CardContainer() {
     );
 } 
 
-export default CardContent;
+export default CardContainer;
