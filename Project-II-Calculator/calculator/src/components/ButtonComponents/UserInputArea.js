@@ -11,7 +11,7 @@ import CalculatorDisplay from '../DisplayComponents/CalculatorDisplay';
 const UserInputArea = () => {
     return (
         <div className="display">
-            <CalculatorDisplay style="result" text="0" />
+            <CalculatorDisplay text="0" />
             <div className="input">
                 <div className="numbers">
                     <div className="row">
