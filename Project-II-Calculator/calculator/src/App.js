@@ -16,9 +16,21 @@ const App = () => {
         <NumberButton text="7" buttonStyle="numberButton" />
         <NumberButton text="8" buttonStyle="numberButton" />
         <NumberButton text="9" buttonStyle="numberButton"/>
-        
+        <NumberButton text="&times;" buttonStyle="operatorButton" />
+        <NumberButton text="4" buttonStyle="numberButton" />
+        <NumberButton text="5" buttonStyle="numberButton" />
+        <NumberButton text="6" buttonStyle="numberButton" />
+        <NumberButton text="&minus;" buttonStyle="operatorButton" />
+        <NumberButton text="1" buttonStyle="numberButton" />
+        <NumberButton text="2" buttonStyle="numberButton" />
+        <NumberButton text="3" buttonStyle="numberButton" />
+        <NumberButton text="&#43;" buttonStyle="operatorButton" />
+        <ActionButton text="0" buttonStyle="actionButton" />
+        <NumberButton text="&#61;" buttonStyle="operatorButton" />
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default App;
 
