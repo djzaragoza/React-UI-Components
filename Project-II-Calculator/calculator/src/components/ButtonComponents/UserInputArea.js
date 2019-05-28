@@ -27,9 +27,32 @@ const UserInputArea = () => {
                         <NumberButton buttonStyle="btn white" text="5" />
                         <NumberButton buttonStyle="btn white" text="6" />
                     </div>
-                    
-
+                    <div className="row">
+                        <NumberButton buttonStyle="btn white" text="1" />
+                        <NumberButton buttonStyle="btn white" text="2" />
+                        <NumberButton buttonStyle="btn white" text="3" />
+                    </div>
+                    <div className="row">
+                        <NumberButton buttonStyle="large btn white" text="0" />
+                    </div>
                 </div>
+                <div className="action">
+                    <div className="row">
+                        <ActionButton buttonStyle="large red" text="&#247;" />
+                    </div>
+                    <div className="row">
+                        <ActionButton buttonStyle="large red" text="&#8722" />
+                    </div>
+                    <div className="row">
+                        <ActionButton buttonStyle="large red" text="&#x2b" />
+                    </div>
+                    <div className="row">
+                        <ActionButton buttonStyle="large red" text="&#61" />
+                    </div>
+                </div>
+            </div>
         </div>
-    )
-}
+    );
+};
+
+export default UserInputArea;
