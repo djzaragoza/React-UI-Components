@@ -17,3 +17,21 @@
     height: 80px;
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.red {
+    background: rgb(160, 6, 6);
+    color: white;
+    font-size: 3rem;
+    vertical-align: middle;
+}
+
+.faint {
+    font-weight: 100;
+}
