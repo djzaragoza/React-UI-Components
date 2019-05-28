@@ -20,7 +20,7 @@ const UserInputArea = () => {
                     <div className="row">
                         <NumberButton buttonStyle="btn white" text="7" />
                         <NumberButton buttonStyle="btn white" text="8" />
-                        <NumberButotn buttonStyle="btn white" text="9" />
+                        <NumberButton buttonStyle="btn white" text="9" />
                     </div>
                     <div className="row">
                         <NumberButton buttonStyle="btn white" text="4" />
