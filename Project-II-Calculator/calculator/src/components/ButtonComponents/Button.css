@@ -1,0 +1,19 @@
+.faint {
+    font-weight: 100;
+}
+
+.btn {
+    width: 34%;
+    border: 1px solid white;
+    height: 80px;
+    font-size: 3rem;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+.large {
+    width: 100%;
+    border: 1px solid white;
+    height: 80px;
+}
+
