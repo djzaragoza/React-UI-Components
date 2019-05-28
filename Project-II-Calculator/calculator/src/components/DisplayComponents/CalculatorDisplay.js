@@ -1,12 +1,11 @@
 import React from 'react';
 import './Display.css';
 
-const Display = props => {
-    return (
-        <div className={props.style}>
-            <span className="text">{props.text}</span>
-        </div>
-    );
-};
+const CalculatorDisplay = () => {
+    return(
+        <div className="display";
+            <p>0</p>
+    )
+}
 
-export default Display;
+export default CalculatorDisplay;
