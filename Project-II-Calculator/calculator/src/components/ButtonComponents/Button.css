@@ -1,37 +1,29 @@
-.faint {
-    font-weight: 100;
+
+
+.numberButton {
+    width: 25%;
+    height: 20%;
+    font-size: 45px;
+    border: 1px solid gray;
+    border-collapse: collapse;
 }
 
-.btn {
-    width: 34%;
-    border: 1px solid white;
-    height: 80px;
-    font-size: 3rem;
-    vertical-align: middle;
-    font-weight: bolder;
-}
-
-.large {
-    width: 100%;
-    border: 1px solid white;
-    height: 80px;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.red {
-    background: rgb(160, 6, 6);
+.operatorButton {
+    width: 25%;
+    height: 20%;
+    font-size: 70px;
+    font-weight: 200;
+    background-color: crimson;
     color: white;
-    font-size: 3rem;
-    vertical-align: middle;
+    border: 1px solid gray;
+    border-collapse: collapse;
 }
 
-.faint {
-    font-weight: 100;
+.actionButton {
+    width: 75%;
+    height: 20%;
+    font-size: 45px;
+    font-weight: 300;
+    border: 1px solid gray;
+    border-collapse: collapse; 
 }
