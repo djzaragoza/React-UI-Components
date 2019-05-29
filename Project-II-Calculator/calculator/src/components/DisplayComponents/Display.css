@@ -9,6 +9,7 @@
     border: 2px solid gray;
     box-sizing: border-box;
     border-collapse: collapse;
+    margin-left: 40px;
 }
 
 .display p {
