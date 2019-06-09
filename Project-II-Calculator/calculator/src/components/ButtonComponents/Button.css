@@ -1,0 +1,32 @@
+
+
+.numberButton {
+    width: 25%;
+    height: 20%;
+    font-size: 35px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+
+.operatorButton {
+    width: 25%;
+    height: 20%;
+    font-size: 50px;
+    font-weight: 200;
+    background-color: crimson;
+    color: white;
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+
+.actionButton {
+    width: 75%;
+    height: 20%;
+    font-size: 35px;
+    font-weight: 300;
+    border: 1px solid gray;
+    border-collapse: collapse; 
+
+}

@@ -1,0 +1,19 @@
+.display {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin-left: 40px;
+}
+
+.display p {
+    font-size: 45px;
+    margin-right: 15px;
+    font-weight: 100;
+}
